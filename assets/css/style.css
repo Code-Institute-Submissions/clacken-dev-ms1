@@ -1,15 +1,42 @@
+/*----------------------------------General settings*/
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
 /*----------------------------------Colours*/
 
+.bg-dark {
+    background-color: rgba(0,0,0,0.8)!important;
+}
 
+.what-we-offer-section{
+    background-color: gray;
+}
 
+.jumbotron{
+    color:white;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#offer-card-left{
+    background-color: blue;
+}
+/*----------------------------------Text Classes*/
+
+.section-heading{
+    text-align: center;
+    padding: 15px;
+    color: chocolate;
+}
 
 
 /*----------------------------------Header*/
-
-body{
-    min-width: fit-content;
-}
-
 header{
     margin:0;
     padding:0;
@@ -18,8 +45,9 @@ header{
 .hero-image{
     background: url("../images/index-header.jpg") center center no-repeat;
 			width: 100%;
-            height: 80vh;
+            height: 85vh;
             padding:0;
+            clear:both;
 }
 
 .navbar{
@@ -30,9 +58,37 @@ header{
     border-bottom: 1px solid white;
 }
 
-.bg-dark {
-    background-color: rgba(0,0,0,0.7)!important;
+
+
+.jumbotron{
+    width:70%;
+    position: relative;
+    text-align: center;
 }
+
+.jumbotron p{
+    padding-top: 10px;
+}
+
+
+/*----------------------------------What We Offer Section*/
+
+#coaching-image{
+    background: url("../images/coach.jpg");
+    width:65%;
+    height:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    margin: 0 auto;
+    
+}
+
+.card-heading{
+    text-align: center;
+}
+
 
 /*----------------------------------Media Queries*/
 
@@ -46,12 +102,18 @@ header{
      }
 
      .jumbotron {
-    height: 80%;
+    height: 58vh;
+    width: auto;
+    margin-top: 8px;
   }
 
-  .jumbotron h1, p{
-    font-size: 15px;
+  .jumbotron h1{
+        padding-top:0;
+      font-size:22px;
+      font-weight: 800;
   }
+
+  
 
   }
 
