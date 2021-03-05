@@ -1,45 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Gym World Website
 
-Welcome clacken-dev,
+[View the live project here](https://github.com)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is the website for Gym World, an inner city gym. It is designed to be responsive across devices so as to provide a user-friendly experience
+to new visitors and to active gym members seeking information about their gym.
 
-## Gitpod Reminders
+# User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- **User Stories**
+  - First Time Visitor Goals
 
-`python3 -m http.server`
+      1. As a First Time Visitor I want to easily understand the purpose of the website I'm visiting and learn more about this gym and what they offer.
+      1. As a First Time Visitor I want to find the location of the gym, the classes offered, how professional the trainers are and see a gallery of the gym floor.
+      1. As a First Time Visitor I want information on how and where to get in contact in order to sign up to this gym.
+      1. As a First Time Visitor I want to read testimonials from current or past members of the gym to learn more about their experiences with the gym and staff. 
+- **Returning Visitor Goals**
 
-A blue button should appear to click: *Make Public*,
+    1. As a Returning Visitor I want to see if there have been any updates to the gym's class schedule, class types or photo gallery.
+    1. As a Returning Visitor I want to see if there are any promotions or discounts that I can avail of.
+- **Frequent User Goals**
+    1. As a Frequent user of the Gym World site I want to see if there are any new classes being offered, any new personal trainers who specialise in certain areas, or any updates to the meal and workout plans.
+    1. As a Frequent user of the Gym World site I want to see if there have been any new photos added to the Gallery section of the site.
+    1. As a Frequent user of the Gym World site I want to see if there have been any updates to the opening hours and if the gym timetable is operating as normal.
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- **Design**
 
-A blue button should appear to click: *Make Public*,
+    - Colour Scheme
+        -The main theme for the site revolves around neutral tones, pastels and dark colours. This is kept from being too heavy by adding light sections and colours for relief. 
 
-Another blue button should appear to click: *Open Browser*.
+    - Typography
+        - **To Be Decided**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - Imagery
+        - The imagery plays a fundamental aspect for this site. It is designed to attract the users attention with striking photos as well as motivate and inspire them. 
+        Images of professional trainers convey the professionalism of the staff and instills trust in the organisation and its operation. The gallery section on the website gives
+        the user a good idea of the gym setup, equipment, classes and the general operation environment.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- **Wireframes**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    - Home Page Wireframe (link to this somehow)
+    - Classes Wireframe
+    - Gallery Wireframe
+    - About Us Wireframe
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# Features
+    - Responsive on all device sizes
+    - Includes interactive elements like navlinks, clickable buttons and carousels
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+# Technologies Used 
+## Languages Used
+    - HTML5
+    - CSS3
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Frameworks, Libraries & Programs Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+    1. Bootstrap 4.5.2:
+    2. Git:
+        - Git was used for version control by utilizing the terminal in Gitpod for Git commits and pushing to GitHub.
+    3. GitHub:
+        - GitHub is used to store the projects code in a repository after being pushed from Git.
+    4. Photoshop:
+        - Photoshop was used to create mockups of the website and to edit images and create site graphics.
+    5. Balsamiq:
+        - Balsamiq was used during the design process to create wireframes of the intended pages.

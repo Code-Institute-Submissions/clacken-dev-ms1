@@ -16,7 +16,7 @@
 }
 
 .what-we-offer-section{
-    background-color: gray;
+    background-color: #fafafa;
 }
 
 .jumbotron{
@@ -24,15 +24,38 @@
     background-color: rgba(0,0,0,0.8);
 }
 
-#offer-card-left{
-    background-color: blue;
+.offer-section-card{
+    background-color: slategray;
+}
+
+#view-classes-button{
+    background-color: maroon;
 }
 /*----------------------------------Text Classes*/
 
 .section-heading{
     text-align: center;
-    padding: 15px;
+    padding: 30px 0;
     color: chocolate;
+}
+
+.card-heading{
+    text-align: center;
+}
+
+.what-we-offer-description{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.gym-member{
+    color: brown;
+    line-height: 2em;
+    text-align: center;
+}
+
+.centered-text{
+    text-align: center;
 }
 
 
@@ -73,10 +96,12 @@ header{
 
 /*----------------------------------What We Offer Section*/
 
+
+
 #coaching-image{
     background: url("../images/coach.jpg");
-    width:65%;
-    height:50%;
+    width: auto;
+    height: 22rem;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
@@ -89,6 +114,17 @@ header{
     text-align: center;
 }
 
+#view-classes-button{
+    margin-left: 40%;
+    margin-top: 40px;
+}
+
+
+/*----------------------------------What We Offer Section*/
+
+#personal-trainers-section{
+    background-color: slategrey;
+}
 
 /*----------------------------------Media Queries*/
 
@@ -113,6 +149,9 @@ header{
       font-weight: 800;
   }
 
+  #view-classes-button{
+      margin-left: 20%;
+  }
   
 
   }
@@ -123,4 +162,5 @@ header{
 #footer{
     background-color: grey;
     color: yellow;
+    height: 150px;
 }
