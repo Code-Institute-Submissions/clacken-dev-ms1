@@ -31,7 +31,7 @@
 #view-classes-button{
     background-color: maroon;
 }
-/*----------------------------------Text Classes*/
+/*----------------------------------Text Design*/
 
 .section-heading{
     text-align: center;
@@ -65,12 +65,18 @@ header{
     padding:0;
 }
 
-.hero-image{
+.index-hero-image{
     background: url("../images/index-header.jpg") center center no-repeat;
 			width: 100%;
             height: 85vh;
             padding:0;
             clear:both;
+}
+
+.classes-hero-image{
+    background: url("../images/class.jpg") center no-repeat;
+    padding:0;
+    padding-bottom: 20px;
 }
 
 .navbar{
@@ -80,8 +86,6 @@ header{
 .active{
     border-bottom: 1px solid white;
 }
-
-
 
 .jumbotron{
     width:70%;
@@ -93,10 +97,13 @@ header{
     padding-top: 10px;
 }
 
+.classes-jumbotron{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 
 /*----------------------------------What We Offer Section*/
-
-
 
 #coaching-image{
     background: url("../images/coach.jpg");
@@ -115,16 +122,51 @@ header{
 }
 
 #view-classes-button{
-    margin-left: 40%;
+    margin-left: 38%;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
-
-/*----------------------------------What We Offer Section*/
+.what-we-offer-images{
+    position: relative;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
 
 #personal-trainers-section{
     background-color: slategrey;
 }
+
+/*----------------------------------Class Types Section - classes.html*/
+
+#spin-class-image{
+    background: url("../images/spin.jpg") center center no-repeat;
+    width: 100%;
+    height: 35rem;
+}
+
+#hiit-class-image{
+    background: url("../images/hiit.jpg") center center no-repeat;
+    width: 100%;
+    height: 35rem;
+}
+
+#strength-class-image{
+    background: url("../images/strength.jpg") center center no-repeat;
+    width: 100%;
+    height: 35rem;
+}
+
+#combat-class-image{
+    background: url("../images/combat.jpg") center center no-repeat;
+    width: 100%;
+    height: 35rem;
+}
+
+
 
 /*----------------------------------Media Queries*/
 
@@ -153,9 +195,14 @@ header{
       margin-left: 20%;
   }
   
+  
 
   }
 
+  @media only screen and (min-width: 768px) {
+
+    
+  }
 
 /*----------------------------------Footer*/
 
