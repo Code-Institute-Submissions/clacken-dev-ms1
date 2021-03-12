@@ -85,8 +85,13 @@ header{
     padding-bottom: 20px;
 }
 
+#navbar-column{
+    padding:0;
+}
+
 .navbar{
     height: 75px;
+    flex-wrap: nowrap;
 }
 
 .active{
@@ -95,7 +100,6 @@ header{
 
 .jumbotron{
     width:70%;
-    position: relative;
     text-align: center;
 }
 
@@ -193,6 +197,10 @@ header{
     height: 35rem;
 }
 
+.class-description{
+    text-align: center;
+    padding-top: 15%;
+}
 /*----------------------------------About Us Page - about.html*/
 
 #map-section{
@@ -214,7 +222,6 @@ header{
     
 
      .jumbotron {
-    height: 58vh;
     width: auto;
     margin-top: 8px;
   }
@@ -244,4 +251,10 @@ header{
     background-color: grey;
     color: yellow;
     height: 150px;
+    text-align: center;
+    
+}
+
+#footer p{
+    margin: 0 auto;
 }

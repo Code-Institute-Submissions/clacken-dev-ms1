@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Icon downloaded from https://icon-icons.com/download/116664/ICO/512/-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
     <title>Gym World</title>
 </head>
 <body>
     <header class="header">
         <div class="container-fluid index-hero-image">
-            <nav class="navbar navbar-dark bg-dark">
+           
+                    <nav class="navbar navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.html">GYM WORLD</a>
                 <ul class="nav">
                     <li class="nav-item">
@@ -30,13 +33,18 @@
                     </li>
                 </ul>
             </nav>
+                
+            
             <div class="container call-to-action">
                 <div class="jumbotron mx-auto mt-md-5">
                     <h1 class="uppercase">We focus on your results</h1>
                     <p class="lead uppercase">Professional instructors to coach you every step of the way</p>
                     <p class="lead uppercase">Plus FREE fitness assessment and 10-week workout/meal plan on sign up.</p>
                     <a class="btn btn-primary btn-lg" href="about.html" role="button">Sign Up</a>
+                    
+                    
                 </div>
+                
             </div>
         </div>
     </header>
@@ -47,7 +55,7 @@
         <div class="row">
             <div class=".col-sm-12 col-lg-4 offer-section-card " id="offer-card-left">
                 <h3 class="card-heading">Professional Coaching</h3>
-                <!--<div id="coaching-image"></div>-->
+                <!--Image styles adapted from W3Schools page https://www.w3schools.com/bootstrap4/bootstrap_images.asp-->
                 <img class="img-fluid mx-auto rounded d-block" src="assets/images/coach.jpg" alt="Gym coach with client">
                 <p class="what-we-offer-description">Our gym offers the training and assistance of super professional
                     and certified personal fitness
@@ -119,7 +127,7 @@
         <h2 class="section-heading">Hear what our members say!</h2>
         <!--The testimonials are displayed normally on medium screens and larger and displayed as a carousel on small screens-->
         <div class="row d-none d-md-flex">
-            <span class="testimonial-quote col-sm-12 col-md-6 col-lg-4" id="testimonial-left">
+            <div class="testimonial-quote col-sm-12 col-md-6 col-lg-4" id="testimonial-left">
                 <h5 class="gym-member">Jane Doe</h5>
                 <p class="testimonial-paragraph">
                     This is the large block of text which describes User 1's super experience of using this gym. "Love
@@ -128,8 +136,8 @@
                     I have lost an incredible amound of weight and have
                     gained so much muscle I can barely fit through my front door anymore."
                 </p>
-            </span>
-            <span class="testimonial-quote col-sm-12 col-md-6 col-lg-4" id="testimonial-center">
+            </div>
+            <div class="testimonial-quote col-sm-12 col-md-6 col-lg-4" id="testimonial-center">
                 <h5 class="gym-member">Michael Nobody</h5>
                 <p class="testimonial-paragraph">
                     This is the large block of text which describes User 1's super experience of using this gym. "Love
@@ -138,8 +146,8 @@
                     I have lost an incredible amound of weight and have
                     gained so much muscle I can barely fit through my front door anymore."
                 </p>
-            </span>
-            <span class="testimonial-quote col-sm-12 col-md-6 col-lg-4" id="testimonial-right">
+            </div>
+            <div class="testimonial-quote col-sm-12 col-md-6 col-lg-4" id="testimonial-right">
                 <h5 class="gym-member">John Doe</h5>
                 <p class="testimonial-paragraph">
                     This is the large block of text which describes User 1's super experience of using this gym. "Love
@@ -148,7 +156,7 @@
                     I have lost an incredible amound of weight and have
                     gained so much muscle I can barely fit through my front door anymore."
                 </p>
-            </span>
+            </div>
         </div>
         <!--This carousel is adapted from Bootstrap documentation and filled with the necessary content which will scroll on mobile devices-->
         <div id="carouselExampleSlidesOnly" class="carousel slide d-md-none" data-ride="carousel">
@@ -183,7 +191,7 @@
     <footer class="container-fluid">
         <div class="row" id="footer">
             <div class="col-4">
-                <h4>I'm in the footer</h4>
+                <p>Copyright GymWorld 2021</p>
             </div>
         </div>
     </footer>
