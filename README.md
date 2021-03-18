@@ -11,9 +11,9 @@ to new visitors and to active gym members seeking information about their gym.
   - First Time Visitor Goals
 
       1. As a First Time Visitor I want to easily understand the purpose of the website I'm visiting and learn more about this gym and what they offer.
-      1. As a First Time Visitor I want to find the location of the gym, the classes offered, how professional the trainers are and see a gallery of the gym floor.
+      1. As a First Time Visitor I want to find the location of the gym, the classes offered and the experience levels necessary to take part in classes.
       1. As a First Time Visitor I want information on how and where to get in contact in order to sign up to this gym.
-      1. As a First Time Visitor I want to read testimonials from current or past members of the gym to learn more about their experiences with the gym and staff. 
+      1. As a First Time Visitor I would be interested in seeing testimonials from current or past members of the gym to learn more about their experiences with the gym and staff. 
 - **Returning Visitor Goals**
 
     1. As a Returning Visitor I want to see if there have been any updates to the gym's class schedule, class types or photo gallery.
@@ -56,7 +56,8 @@ to new visitors and to active gym members seeking information about their gym.
 
 ## Frameworks, Libraries & Programs Used
 
-    1. Bootstrap 4.5.2:
+    1. Bootstrap 4.5.2: 
+        - Bootstrap was used to assist with making the site responsive across devices and with the overall styling of the website.
     2. Git:
         - Git was used for version control by utilizing the terminal in Gitpod for Git commits and pushing to GitHub.
     3. GitHub:
@@ -65,3 +66,52 @@ to new visitors and to active gym members seeking information about their gym.
         - Photoshop was used to create mockups of the website and to edit images and create site graphics.
     5. Balsamiq:
         - Balsamiq was used during the design process to create wireframes of the intended pages.
+
+
+## Testing
+The site was tested with the W3C Markup Validator and the W3C CSS Validator services to ensure that there were no syntax errors in the project.
+ - W3C Markup Validator - Results (link to screenshot)
+ - W3C CSS Validator - Results (link to screenshot)
+
+ ## Testing User Stories from User Experience (UX) section
+ - First Time Visitor Goals
+ Elaborate
+ -Returning Visitor Goals
+ Elaborate
+ -Frequent User Goals
+ Elaborate
+
+ ## Further Testing
+ - a test
+ - another test
+ -yet another test which was performed
+
+ ## Known Bugs
+ - a known Bug
+ - another known Bug
+
+ # Deployment
+ ## Github pages
+ The project was deployed to Github Pages using the following steps:
+ 1. The steps involved
+
+ ## Forking the GitHub repository
+ Forking the GitHub repository allows us to make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
+ This can be done by using the following steps:
+ 1. The first step in forking a repository
+
+ ## Making a local clone
+ 1. Make the clone steps
+
+ # Credits
+ ## Code 
+ - Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Bootstrap JavaScript CDN was also implemented
+ to add some animation to the navbar.
+ ## Content 
+ - All content was written by the developer unless specifically commented in the code as being from another source.
+ ## Media
+ - Images were sourced from Pexels, Unsplash and Pixabay. Some were left unaltered and others were edited in Photoshop before being used. 
+ ## Acknowledgements 
+ - My Mentor for the ongoing encouragement, support and professional assistance throughout the project development. 
+
+

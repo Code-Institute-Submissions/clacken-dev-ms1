@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <div class="container-fluid index-hero-image">
-           
+           <!-- Navbar -->
                     <nav class="navbar navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.html">GYM WORLD</a>
                 <ul class="nav">
@@ -34,7 +34,7 @@
                 </ul>
             </nav>
                 
-            
+            <!--Bootstrap Jumbotron which is used on the hero image to draw user's attention and provide a call to action i.e sign up/get in touch-->
             <div class="container call-to-action">
                 <div class="jumbotron mx-auto mt-md-5">
                     <h1 class="uppercase">We focus on your results</h1>
@@ -48,6 +48,7 @@
             </div>
         </div>
     </header>
+    <!-- A section which provides information to the user about the perks of this gym and why they should join it. Split into three card type images with accompanying text-->
     <section class="container-fluid what-we-offer-section">
         <div class="section-heading uppercase">
             <h2>What We Offer</h2>
@@ -68,7 +69,7 @@
             </div>
             <div class=".col-sm-12 col-lg-4 offer-section-card" id="offer-card-center">
                 <h3 class="card-heading">Meal/Workout Plans</h3>
-                <!--<div id="plans-image"></div>-->
+        <!--Image styles adapted from W3Schools page https://www.w3schools.com/bootstrap4/bootstrap_images.asp-->
                 <img class="img-fluid mx-auto rounded d-block" src="assets/images/meal.jpg" alt="Picture of delicious food">
                 <p class="what-we-offer-description">At Gym World we believe that the only way to progress is to have a
                     plan of action. That's why we offer our members custom-made meal plans and workout plans
@@ -79,7 +80,7 @@
             </div>
             <div class=".col-sm-12 col-lg-4 offer-section-card" id="offer-card-right">
                 <h3 class="card-heading">Diverse Fitness Classes</h3>
-                <!--<div id="classes-image"></div>-->
+                <!--Image styles adapted from W3Schools page https://www.w3schools.com/bootstrap4/bootstrap_images.asp-->
                 <img class="img-fluid mx-auto rounded d-block" src="assets/images/class.jpg" alt="Gym coach with client">
                 <p class="what-we-offer-description">Our gym offers the training and assistance of super professional
                     and certified personal fitness
@@ -109,23 +110,23 @@
     <section class="container-fluid" id="personal-trainers-section">
         <h2 class="section-heading">Meet Our Fully Certified Personal Trainers</h2>
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6">
                 <h5 class="centered-text">Dwayne Johnson</h5>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6">
                 <h5 class="centered-text">John Cena</h5>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6">
                 <h5 class="centered-text">Mr. Incredible</h5>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6">
                 <h5 class="centered-text">Chewbacca</h5>
             </div>
         </div>
     </section>
     <section class="container-fluid" id="testimonials-section">
         <h2 class="section-heading">Hear what our members say!</h2>
-        <!--The testimonials are displayed normally on medium screens and larger and displayed as a carousel on small screens-->
+        <!--The testimonials are displayed normally on medium screens and above, but displayed as a carousel on small screens-->
         <div class="row d-none d-md-flex">
             <div class="testimonial-quote col-sm-12 col-md-6 col-lg-4" id="testimonial-left">
                 <h5 class="gym-member">Jane Doe</h5>
@@ -188,10 +189,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <footer class="container-fluid">
-        <div class="row" id="footer">
-            <div class="col-4">
-                <p>Copyright GymWorld 2021</p>
+    <footer class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 footer-text">
+                <a href="facebook.com">Follow Us On Facebook</a>
+            </div>
+            <div class="col-sm-12 col-md-4 footer-text">
+                <p><em>Gym World - Grafton St. Dublin</em></p>
+            </div>
+            <div class="col-sm-12 col-md-4 footer-text">
+                <p>Site Design: <a href="https://github.com/clacken-dev" id="footer-link">ClackenDev</a> © 2021</p>
             </div>
         </div>
     </footer>
