@@ -3,12 +3,6 @@
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
 /*----------------------------------Colours*/
 
 .bg-dark {
@@ -25,18 +19,33 @@
 }
 
 .offer-section-card{
-    background-color: slategray;
+    background-color: rgba(0,0,0,0.9);
 }
 
 #view-classes-button{
-    background-color: maroon;
+    color: black;
+    background-color: white;
+    border-color: #B92207;
+    border-width: 3px;
+}
+
+#view-classes-button:hover{
+    color: white;
+    background-color:maroon;
+    border-color: maroon;
+    
 }
 /*----------------------------------Text Design*/
 
 .section-heading{
     text-align: center;
     padding: 30px 0;
-    color: chocolate;
+    color: brown;
+}
+
+.classes-heading{
+    text-align: center;
+    color: brown;
 }
 
 .card-heading{
@@ -46,6 +55,10 @@
 .what-we-offer-description{
     margin-top: 15px;
     text-align: center;
+}
+
+.offer-section-card{
+    color: #fafafa;
 }
 
 .gym-member{
@@ -71,6 +84,7 @@ header{
             height: 85vh;
             padding:0;
             clear:both;
+            margin-top:0;
 }
 
 .classes-hero-image{
@@ -103,6 +117,7 @@ header{
 }
 
 .jumbotron{
+    margin-top: 50px;
     width:70%;
     text-align: center;
 }
@@ -157,9 +172,12 @@ header{
 }
 
 #view-classes-button{
-    margin-left: 38%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
     margin-top: 40px;
     margin-bottom: 50px;
+    max-width: 350px;
 }
 
 .what-we-offer-images{
@@ -172,9 +190,18 @@ header{
 }
 
 #personal-trainers-section{
-    background-color: slategrey;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
 }
+/*----------------------------------Personal Trainers Secction */
 
+.trainer-image{
+    width: auto;
+    height: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 /*----------------------------------Class Types Section - classes.html*/
 
 #spin-class-image{
@@ -203,7 +230,11 @@ header{
 
 .class-description{
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
+}
+
+#schedule-section{
+    margin-bottom: 75px;
 }
 /*----------------------------------About Us Page - about.html*/
 
@@ -241,24 +272,21 @@ header{
       font-weight: 800;
   }
 
-  #view-classes-button{
+  /*#view-classes-button{
       margin-left: 20%;
-  }
+  }*/
   
-  
-
   }
 
   @media only screen and (min-width: 768px) {
 
-    
   }
 
 /*----------------------------------Footer*/
 
 #footer{
-    background-color: grey;
-    color: yellow;
+    background-color: rgba(0,0,0,0.9);
+    color:#fafafa;
     height: 150px;
     text-align: center;
 }
@@ -266,6 +294,11 @@ header{
 .footer-text{
     padding-top: 15px;
     padding-bottom: 5px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #F62207;
 }
 
 #footer p{
