@@ -13,26 +13,26 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <title>Gym World</title>
 </head>
+
 <body>
     <header class="header">
-        <div class="container-fluid about-hero-image">
-            <nav class="navbar navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">GYM WORLD</a>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="classes.html">Classes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About Us</a>
-                    </li>
+        <div class="navbar-div">
+              <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Gym World</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class=" nav-item mr-3"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-3"><a class="nav-link" href="classes.html">Classes</a></li>
+                    <li class=" nav-item mr-3"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="active nav-item mr-3"><a class="nav-link" href="about.html">About</a></li>
                 </ul>
-            </nav>
+            </div>
+        </nav>
+          </div>
+        <div class="container-fluid about-hero-image">
+            
             <div class="container call-to-action">
                 <div class="jumbotron mx-auto mt-md-5" id="classes-jumbotron">
                     <h1 class="uppercase">Get in touch with us today!</h1>
@@ -49,6 +49,7 @@
             <div class="row">
                 <div class="col">
                     <h2 class="section-heading uppercase">Opening Hours</h2>
+                    <div id="opening-hours-table">
                     <table class="table">
                         <thead class="thead-dark">
                             <tr>
@@ -75,6 +76,7 @@
                             </tr>
                         </tbody>
                     </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,26 +87,22 @@
             <!--Form adapted from Bootstrap documentation-->
             <form>
                 <div class="form-group">
-                    <label for="fname">First Name:</label>
                     <input type="text" class="form-control" id="fname" name="fname" required placeholder="First Name">
-                    <div class="form-group">
-                        <label for="lname">Last Name:</label>
-                        <input type="text" class="form-control" id="lname" name="lname" required
+                    <div class="form-group" aria-label="First Name">
+                        <input type="text" class="form-control" aria-label="Last Name" id="lname" name="lname" required
                             placeholder="Last Name">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email address</label>
                         <input type="email" class="form-control" id="email" name="email" required
-                            placeholder="name@example.com">
+                            placeholder="Email Address" aria-label="Email Address">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Enter Message:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Enter Message" aria-label="Enter Message"></textarea>
                     </div>
-
                 </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                <div class="form-group d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary mb-2 mx-auto">Submit</button>
                 </div>
             </form>
         </div>
@@ -120,18 +118,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- FOOTER -->
     <footer class="container-fluid" id="footer">
         <div class="row">
             <div class="col-sm-12 col-md-4 footer-text">
-                <a href="facebook.com" class="footer-link">Follow Us On Facebook</a>
+                <a href="https://www.facebook.com" target="_blank" class="footer-link">Follow Us On Facebook</a>
             </div>
             <div class="col-sm-12 col-md-4 footer-text">
                 <p><em>Gym World - Grafton St. Dublin</em></p>
             </div>
             <div class="col-sm-12 col-md-4 footer-text">
-                <p>Site Design: <a href="https://github.com/clacken-dev" class="footer-link">ClackenDev</a> © 2021</p>
+                <p>Site Design: <a href="https://github.com/clacken-dev" target="_blank" class="footer-link">ClackenDev</a> © 2021</p>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
