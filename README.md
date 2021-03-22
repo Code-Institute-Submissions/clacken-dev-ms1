@@ -1,6 +1,6 @@
 # Gym World Website
 
-[View the live project here](https://github.com)
+[View the live project here](https://clacken-dev.github.io/ms1/index.html)
 
 This is the website for Gym World, an inner city gym. It is designed to be responsive across devices so as to provide a user-friendly experience
 to new visitors and to active gym members seeking information about their gym.
@@ -40,10 +40,10 @@ to new visitors and to active gym members seeking information about their gym.
 
 - **Wireframes**
 
-    - Home Page Wireframe (link to this somehow)
-    - Classes Wireframe
-    - Gallery Wireframe
-    - About Us Wireframe
+    - [Home Page Wireframe](https://github.com/clacken-dev/ms1/blob/master/docs/homepage-wireframe.png)
+    - [Classes Wireframe](https://github.com/clacken-dev/ms1/blob/master/docs/classes-wireframe.png)
+    - [Gallery Wireframe](gallery-wireframe.png)
+    - [About Us Wireframe](https://github.com/clacken-dev/ms1/blob/master/docs/about-wireframe.png)
 
 # Features
     - Responsive on all device sizes
