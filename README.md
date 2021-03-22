@@ -25,8 +25,9 @@ dreams as well as giving them a better quality of life overall. It is designed t
 - Colour Scheme
 
     - The main theme for the site revolves around neutral tones, pastels and dark colours. This is kept from being too heavy by adding light sections and colours for relief.
-        The idea for having a dark theme was to convey the idea of strength, power and determination, as opposed to a light theme such as a hotel gym which conveys more the idea
-        of health and realtively light exercise such as treadmill. 
+        The idea for having a dark theme was to convey the idea of strength, power and determination, as opposed to a light theme such as a hotel gym website which conveys more the idea
+        of health and realtively light exercise such as treadmill. The dark design was seen in several other gym websites, such as [One Life Fitness](https://onelifefitness.ie) and is effective at 
+        communicating a modern, challenging and motivating type of gym experience.
         The colours are also used to break up the sections into their respective areas and make the page styling quite dynamic. The colour red is used for section headings as this
         symbolises action, strength, energy and passion. The positive effect of the colour red is that it attracts attention, motivates and stimulates the user and also gives feelings
         of courage and confidence. These are all useful reactions as they are directly related to fitness and exercise, especially powerful and dynamic movements such the ones offered at Gym World. 
@@ -50,7 +51,7 @@ dreams as well as giving them a better quality of life overall. It is designed t
 
     - [Home Page Wireframe](https://github.com/clacken-dev/ms1/blob/master/docs/homepage-wireframe.png)
     - [Classes Wireframe](https://github.com/clacken-dev/ms1/blob/master/docs/classes-wireframe.png)
-    - [Gallery Wireframe](gallery-wireframe.png)
+    - [Gallery Wireframe](https://github.com/clacken-dev/ms1/blob/master/docs/gallery-wireframe.png)
     - [About Us Wireframe](https://github.com/clacken-dev/ms1/blob/master/docs/about-wireframe.png)
 
 # Features
@@ -95,7 +96,8 @@ adds a nice interactive element which grabs the user's attention.
 ## Testing
 The site was tested with the W3C Markup Validator and the W3C CSS Validator services to ensure that there were no syntax errors in the project.
  - [W3C Markup Validator](https://validator.w3.org) - [Results](https://github.com/clacken-dev/ms1/blob/master/docs/html-validator.png)
- - [W3C CSS Validator](https://jigsaw.w3.org/css-validator) - Results (link to screenshot)
+ - [W3C CSS Validator](https://jigsaw.w3.org/css-validator) - [Results](https://github.com/clacken-dev/ms1/blob/master/docs/css-validator.png)
+    - CSS Validator finds 2 errors relating to Bootstrap elements, site's CSS is unaffected and own code is free from any syntax errors
 
 ## Testing User Stories from User Experience (UX) section
 
@@ -123,6 +125,7 @@ The site was tested with the W3C Markup Validator and the W3C CSS Validator serv
     1. As a Returning Visitor I want to see if there have been any updates to the gym's class schedule, class types or photo gallery.
         - A returning visitor to this site will be familiar with the site layout and will therefore be quickly able to navigate to the gallery page or the class page.
         Upon navigating to the classes page they will clearly see the available classes with descriptions and the schedule below.
+        ![Imgur image](https://i.imgur.com/OGeMsgt.png)
 
     
 - Frequent User Goals
@@ -138,20 +141,24 @@ The site was tested with the W3C Markup Validator and the W3C CSS Validator serv
     1. As a Frequent user of the Gym World site I want to see if there have been any updates to the opening hours.
         - The opening hours are clearly displayed in a table on the about page. A frequent user will be able to navigate to this page and see the information they are looking for very quickly and easily. 
         The section is clearly labelled and the layout of the table is easy to read at a glance. 
+        ![Imgur image of Gym World site](https://i.imgur.com/u4Vz1q5.png)
 
  ## Further Testing
  - Extensive testing was carried out to ensure that the responsive nature of the site was maintained across various browsers and devices. 
    The site was tested on desktop and laptop on Chrome and Safari. All pages were viewed, all links tried, all information regarded to see if the User Experience was accurately maintained
    across browsers and devices. The site was tested on Edge, Firefox, Opera and Chrome for mobile on a Samsung Galaxy S10. All pages were inspected, the dropdown menu was used, all links 
    were followed, images were looked at, text, contrast, fonts and spacing were evaluated to ensure they were consistent and that positioning was correct.
- - Chrome Devtools was used to evaluate the performance of the site and ensure there were no major issues affecting the performance or accessibility of the site. 
-
-    [Chrome Devtools Lighthouse report of Gym World site](https://github.com/clacken-dev/ms1/blob/master/docs/lighthouse.png)
- - yet another test which was performed
+ - Chrome Devtools was used to evaluate the performance of the site and ensure there were no major issues affecting the performance or accessibility of the site. Lighthouse gave 
+ a good indication that accessibility and site perfomance were adequate and that no major issues were present in this regard.
+    ![Imgur](https://i.imgur.com/88mR2qV.png)
 
  ## Known Bugs
- - a known Bug
- - another known Bug
+ - Currently there seem to be no active bugs across desktop or mobile. Bugs which were resolved during development involved white spacing to the right hand side of the screen on mobile, 
+ the dropdown navigation menu being hidden behind content rather than pushing content down, links not working, images not displaying correctly or resizing to distorted aspect ratios on smaller 
+ displays and a few others. These issues were resolved by paying close attention to the bootstrap grid layout being used, updating CSS positioning of elements, using flexible images from Bootstrap, 
+ensuring that all links had valid URLs attached and were set to open in new tabs.
+- Chrome DevTools gives two warnings in relation to not locating files or addresses from the Bootstrap CDN but these are not currently fixable as there is no control over outside elements. 
+- A Chrome DevTools error was present saying it could not locate favicon.ico and this issue was resolved by adding a site icon to be displayed on browser tabs. 
 
  # Deployment
  ## Github pages
@@ -175,9 +182,10 @@ The site was tested with the W3C Markup Validator and the W3C CSS Validator serv
  - Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Bootstrap JavaScript CDN was also implemented
  to add some animation to the navbar.
  ## Content 
- - All content was written by the developer unless specifically commented in the code as being from another source.
+ - All content was written by the developer unless specifically commented in the code as being from another source. Some elements were adapted and modified from examples on Bootstrap documentation 
+ and W3Schools articles and is attributed in the code. 
  ## Media
- - Images were sourced from Pexels, Unsplash and Pixabay. Some were left unaltered and others were edited in Photoshop before being used. 
+ - Images were sourced from Pexels, Unsplash and Pixabay
  ## Acknowledgements 
  - My Mentor for the ongoing encouragement, support and professional assistance throughout the project development. 
 
