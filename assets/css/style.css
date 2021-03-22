@@ -180,9 +180,7 @@ header{
     height: 22rem;
     max-height: 75%;
     background-size: cover;
-    
     margin: 0 auto;
-    
 }
 
 #plans-image{
@@ -190,9 +188,7 @@ header{
     width: auto;
     height: 22rem;
     background-size: cover;
-    
     margin: 0 auto;
-    
 }
 
 #classes-image{
@@ -200,9 +196,7 @@ header{
     width: auto;
     height: 22rem;
     background-size: cover;
-    
     margin: 0 auto;
-    
 }
 
 .card-heading{
@@ -338,8 +332,6 @@ header{
          height:30rem;
      }
 
-    
-
      .jumbotron {
     width: auto;
     margin-top: 8px;
@@ -350,10 +342,6 @@ header{
       font-size:22px;
       font-weight: 800;
   }
-
-  /*#view-classes-button{
-      margin-left: 20%;
-  }*/
   
   }
 
