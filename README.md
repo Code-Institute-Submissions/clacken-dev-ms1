@@ -140,8 +140,8 @@ The site was tested with the W3C Markup Validator and the W3C CSS Validator serv
         The section is clearly labelled and the layout of the table is easy to read at a glance. 
 
  ## Further Testing
- - a test
- - another test
+ - Extensive testing was carried out to ensure that the responsive nature of the site was maintained across various browsers and devices. 
+ - Chrome Devtools
  -yet another test which was performed
 
  ## Known Bugs
@@ -150,16 +150,17 @@ The site was tested with the W3C Markup Validator and the W3C CSS Validator serv
 
  # Deployment
  ## Github pages
- The project was deployed to Github Pages using the following steps:
- 1. The steps involved
+ This project was deployed to Github pages and then frequent pushes from GitPod were made to keep the deployed version up to date with the development version.
+ The deployment was made as follows:
+ - Log into GitHub and locate the relevent repository
+ - Click on the settings icon for that repository and scroll down to GitHub Pages section
+ - Set the source to Branch: master
+ - Follow the link which is generated to preview the live site
 
  ## Forking the GitHub repository
  Forking the GitHub repository allows us to make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
  This can be done by using the following steps:
  1. The first step in forking a repository
-
- ## Making a local clone
- 1. Make the clone steps
 
  # Credits
  ## Code 
