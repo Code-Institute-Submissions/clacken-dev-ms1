@@ -141,7 +141,10 @@ The site was tested with the W3C Markup Validator and the W3C CSS Validator serv
 
  ## Further Testing
  - Extensive testing was carried out to ensure that the responsive nature of the site was maintained across various browsers and devices. 
- - Chrome Devtools
+   The site was tested on desktop and laptop on Chrome and Safari. All pages were viewed, all links tried, all information regarded to see if the User Experience was accurately maintained
+   across browsers and devices. The site was tested on Edge, Firefox, Opera and Chrome for mobile on a Samsung Galaxy S10. All pages were inspected, the dropdown menu was used, all links 
+   were followed, images were looked at, text, contrast, fonts and spacing were evaluated to ensure they were consistent and that positioning was correct.
+ - Chrome Devtools was used to evaluate the performance of the site and ensure there were no major issues affecting the performance or accessibility of the site. 
  -yet another test which was performed
 
  ## Known Bugs
@@ -158,9 +161,12 @@ The site was tested with the W3C Markup Validator and the W3C CSS Validator serv
  - Follow the link which is generated to preview the live site
 
  ## Forking the GitHub repository
- Forking the GitHub repository allows us to make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
+ Forking a GitHub repository will create a copy of that repository which can be changed, edited and modified without affecting the original repository.
  This can be done by using the following steps:
- 1. The first step in forking a repository
+ - Navigate to the repository on GitHub 
+ - At the top of the repository, on the right hand side, locate the fork button and click it
+ - You now have a copy of the original repository which can be modified 
+
 
  # Credits
  ## Code 
