@@ -94,7 +94,7 @@ adds a nice interactive element which grabs the user's attention.
 
 ## Testing
 The site was tested with the W3C Markup Validator and the W3C CSS Validator services to ensure that there were no syntax errors in the project.
- - [W3C Markup Validator](https://validator.w3.org) - Results (link to screenshot)
+ - [W3C Markup Validator](https://validator.w3.org) - [Results](https://github.com/clacken-dev/ms1/blob/master/docs/html-validator.png)
  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator) - Results (link to screenshot)
 
 ## Testing User Stories from User Experience (UX) section
@@ -145,7 +145,9 @@ The site was tested with the W3C Markup Validator and the W3C CSS Validator serv
    across browsers and devices. The site was tested on Edge, Firefox, Opera and Chrome for mobile on a Samsung Galaxy S10. All pages were inspected, the dropdown menu was used, all links 
    were followed, images were looked at, text, contrast, fonts and spacing were evaluated to ensure they were consistent and that positioning was correct.
  - Chrome Devtools was used to evaluate the performance of the site and ensure there were no major issues affecting the performance or accessibility of the site. 
- -yet another test which was performed
+
+    [Chrome Devtools Lighthouse report of Gym World site](https://github.com/clacken-dev/ms1/blob/master/docs/lighthouse.png)
+ - yet another test which was performed
 
  ## Known Bugs
  - a known Bug
