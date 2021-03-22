@@ -1,4 +1,6 @@
 /*----------------------------------General settings*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400&family=Raleway:wght@300;400;500&display=swap');
+
 .uppercase{
     text-transform: uppercase;
 }
@@ -9,7 +11,7 @@
 }
 
 body{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 /*----------------------------------Colours*/
 
@@ -46,14 +48,15 @@ body{
 /*----------------------------------Text Design*/
 
 .section-heading{
+    font-family: Oswald, sans-serif;
     text-align: center;
     padding: 30px 0;
-    color: brown;
+    color:#b50b0b;
 }
 
 .classes-heading{
     text-align: center;
-    color: brown;
+    color:#b50b0b;
 }
 
 .card-heading{
